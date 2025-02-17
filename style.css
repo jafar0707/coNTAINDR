@@ -1,0 +1,54 @@
+.box div{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    align-items: center;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.box3 div{
+    width: 150px;
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+}
+.box4 div{
+width: 300px;
+height: 100px;
+background-color: greenyellow;
+border: 20px solid red;
+border-radius: 20px;
+}
+.box2 img,iframe{
+    width: 40%;
+    height: 300px;
+    border: 5px solid black;
+    /* display: flex; */
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-direction: row;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+body{
+    background-color: rgb(5, 5, 88);
+}
